@@ -1,0 +1,6 @@
+aws_profile = "my-aws-credentials-profile"
+
+aws_region = "eu-west-1"
+
+environment = "development"
+product = "myproduct"
