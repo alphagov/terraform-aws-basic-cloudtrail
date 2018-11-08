@@ -1,8 +1,8 @@
 # Example configuration
 
-This working example that demonstrates how you can use this module to set up Cloudtrail logging in an S3 bucket.  By working through the example it will result in you having Cloudtrail logs being stored inside either a new S3 bucket or an S3 bucket you've already created.
+This working example demonstrates how you can use [terraform-aws-basic-cloudtrail](https://github.com/alphagov/terraform-aws-basic-cloudtrail) module to set up Cloudtrail logging in an S3 bucket.  By working through the example it will result in you having Cloudtrail logs being stored inside either a new S3 bucket or an S3 bucket you've already created.
 
-To work through this example you will need to clone this repo.
+To work through this example you will need to clone [this repo](https://github.com/alphagov/terraform-aws-basic-cloudtrail).
 
 ## Prerequisites
 
@@ -75,6 +75,6 @@ Before you start you'll need:
 	terraform apply terraform.plan
 	```
 
-You should now see the name of the bucket created (if you didn't pass in the name of a bucket you'd already created) and the prefix of the files instead the bucket used to store the Cloudtrail logs.
+You should now see the name of the bucket created (if you didn't pass in the name of a bucket you'd already created) and the prefix of the files inside the bucket used to store the Cloudtrail logs.
 
-The logs created can either be inspected via the AWS console or downloaded via the AWS cli.
+The logs created can either be inspected via the AWS console or downloaded via the [AWS cli](https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html).
