@@ -21,7 +21,7 @@ Please see the [example](example).
 
 ## Outputs
 
-In addition to the input arguments above, the following attributes are exported:
+In addition to the input arguments above, with the exception of `custom_tags`, the following attributes are exported:
 
 | Name | Var Type | Description |
 | :--- | :--- | :--- |
