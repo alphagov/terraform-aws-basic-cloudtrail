@@ -1,4 +1,4 @@
-# terraform-aws-simple-cloudtrail
+# terraform-aws-basic-cloudtrail
 
 ## Overview
 
