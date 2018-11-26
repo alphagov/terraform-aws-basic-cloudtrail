@@ -10,7 +10,7 @@ output "s3_key_prefix" {
 
 output "resource_prefix" {
   description = "Prefix used when naming the AWS Cloudtrail resource and, if not specified in the bucket_name variable, the S3 bucket used to store the Cloudtrail logs. Specifying this variable is recommended to prevent duplicate AWS resource names"
-  value       = "${var.resource_prefix}"
+  value       = "${local.resource_prefix}"
 }
 
 output "enable_logging" {

@@ -25,7 +25,7 @@ variable "enable_logging" {
 variable "resource_prefix" {
   description = "(Optional) Prefix used when naming the AWS Cloudtrail resource and, if not specified in the bucket_name variable, the S3 bucket used to store the Cloudtrail logs. Specifying this variable is recommended to prevent duplicate AWS resource names"
   type        = "string"
-  default     = "cloudtrail"
+  default     = ""
 }
 
 variable "s3_key_prefix" {
