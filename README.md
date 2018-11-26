@@ -12,7 +12,7 @@ Please see the [example](example).
 
 | Name | Var Type | Required | Default | Description |
 | :--- | :--- | :--: | :--- | :--- |
-| `bucket_name` | string | **yes** | | Name of an S3 bucket that already exists. This bucket will be used to log Cloudtrail events. If no bucket name is specified then one will be created |
+| `bucket_name` | string | **yes** | | Name of the S3 bucket where logs of Cloudtrail events will be placed. If no bucket name is specified then one will be created |
 | `s3_key_prefix` | string | **yes** | | Specifies the S3 key prefix that precedes the name of the bucket you have designated for log file delivery |
 | `resource_prefix` | string | | | (Optional) Prefix used when naming the AWS Cloudtrail resource and, if not specified in the bucket_name variable, the S3 bucket used to store the Cloudtrail logs. Specifying this variable is recommended to prevent duplicate AWS resource names |
 | `enable_logging` | string | | true | (Optional) Enables logging for the trail. Defaults to true. Setting this to false will pause logging |
